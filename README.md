@@ -25,11 +25,11 @@ We install Pangolin system wide and configure the dynamic library path so the ne
 #### Install Pangolin
 
 ```
-cd ~/Documents
+cd ~
 git clone https://github.com/stevenlovegrove/Pangolin
 cd Pangolin
-./scripts/install_prerequisites.sh --dry-run recommended [Check what recommended softwares needs to be installed]
-./scripts/install_prerequisites.sh recommended [Install recommended dependencies]
+./scripts/install_prerequisites.sh --dry-run recommended #[Check what recommended softwares needs to be installed]
+./scripts/install_prerequisites.sh recommended #[Install recommended dependencies]
 cmake -B build
 cmake --build build -j4
 sudo cmake --install build
