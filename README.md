@@ -86,3 +86,15 @@ chmod +x build.sh
 ./build.sh
 ```
 This will create **libORB_SLAM3.so**  at *lib* folder and the executables in *Examples* folder.
+
+## Run
+
+### Dataset
+```
+cd ORB_SLAM3
+wget -c http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/machine_hall/MH_01_easy/MH_01_easy.zip
+unzip MH_01_easy.zip
+./Examples/Monocular/mono_euroc ./Vocabulary/ORBvoc.txt ./Examples/Monocular/EuRoC.yaml MH_01_easy ./Examples/Monocular/EuRoC_TimeStamps/MH01.txt dataset-MH01_mono
+```
+
+
