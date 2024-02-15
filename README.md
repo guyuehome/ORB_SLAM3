@@ -10,7 +10,7 @@ This repository is a modified version of [ORB_SLAM3](https://github.com/UZ-SLAML
 - Fixed unexpected <span style="color:red">error</span> when start **STEREO** mode with **Rectified** camera type
 
 
-## Prerequisitis
+## Prerequisites
 
 ### Eigen3
 
